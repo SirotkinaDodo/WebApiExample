@@ -1,0 +1,6 @@
+﻿services:
+  example.api:
+    image: example.api
+    build:
+      context: .
+      dockerfile: Example.Api/Dockerfile
